@@ -1,0 +1,104 @@
+
+@import url("https://fonts.googleapis.com/css?family=Rye&display=swap");
+
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Rye', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.blueLt {
+  color: #3CA1CC;
+}
+h1 {
+  font-size: 128px;
+  margin-bottom: 0
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  margin-bottom: 0;
+}
+p {
+  margin: 0;
+}
+.center {
+  text-align: center;
+}
+.pageContainer {
+  margin: 22px auto 0;
+  max-width: 1020px;
+  background-color:#7AC1E4;
+  padding: 28px;
+}
+.boxWidth {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+.white {
+  color: #fff;
+}

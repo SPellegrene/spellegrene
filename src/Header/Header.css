@@ -1,0 +1,31 @@
+
+nav li {
+  list-style: none;
+  margin-left: 16px;
+  display: inline-block;
+}
+nav {
+  text-align: center;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: #B4DDF0;
+  padding: 20px 0;
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+.is-nav-scroll {
+  background-color: #fff;
+  -webkit-animation-name: fadeIn, pulse;
+  animation-name: fadeIn, pulse;
+  animation-duration: 1s;
+}
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-duration: 1s;
+}

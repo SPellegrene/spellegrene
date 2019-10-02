@@ -1,0 +1,24 @@
+.desc {
+  margin-top: 36px;
+}
+.desc:last-of-type {
+  margin-bottom: 28px;
+}
+.rightSide {
+  background: url("../Images/stickman.png") no-repeat;
+  background-size: 100px;
+  display: inline-block;
+  float: right;
+  height: 300px;
+  width: 50%;
+  margin-bottom: 15%;
+}
+.leftSide {
+  display: inline-block;
+}
+.sketchCont {
+  margin-top: 10%;
+}
+.sketchCont p {
+  font-size: 8px;
+}
