@@ -1,0 +1,144 @@
+.HTML,
+.CSS,
+.Javascript,
+.React,
+.Accessibility,
+.RWD {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image: linear-gradient(to right, transparent 50%, currentColor 0);
+  border: 5px solid #fff;
+  color: #6390aa;
+  display: inline-block;
+  margin: 32px;
+}
+
+.HTML:before,
+.CSS:before,
+.Javascript:before,
+.React:before,
+.Accessibility:before,
+.RWD:before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+
+  transform: rotate(0turn);
+  background-color: currentColor;
+
+  animation: spin1 0.75s cubic-bezier(.52,.32,.76,1.3) forwards;
+}
+.HTML:before {
+  animation: spin3 0.75s cubic-bezier(.52,.32,.76,1.3) forwards;
+}
+
+.CSS:before {
+  animation: spin2 0.75s cubic-bezier(.52,.32,.76,1.3) forwards;
+}
+.Javascript:before {
+  animation: spin4 0.75s cubic-bezier(.52,.32,.76,1.3) forwards;
+}
+.React:before {
+  animation: spin5 0.75s cubic-bezier(.52,.32,.76,1.3) forwards;
+}
+.Accessibility:before {
+  animation: spin5 0.75s cubic-bezier(.52,.32,.76,1.3) forwards;
+}
+
+.HTML:after,
+.CSS:after,
+.Javascript:after,
+.React:after,
+.Accessibility:after,
+.RWD:after {
+  content: '';
+  color: #000;
+  line-height: 45px;
+  font-size: 18px;
+}
+.HTML:after {
+  content: 'HTML';
+}
+.CSS:after {
+  content: 'CSS';
+}
+.Javascript:after {
+  content: 'Javascript';
+}
+.React:after {
+  content: 'React';
+}
+.Accessibility:after {
+  content: 'Accessibility'
+}
+.RWD:after {
+  content: 'RWD';
+}
+
+.CSS-overlay,
+.HTML-overlay,
+.Javascript-overlay,
+.React-overlay,
+.Accessibility-overlay,
+.RWD-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70%;
+  height: 70%;
+
+  background-color: #fff;
+  border-radius: 50%;
+
+  color: #0c3954;
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+
+
+@keyframes spin1{
+  /* 0.25turn = 75%
+   * 0.4turn = 90% */
+	to { transform: rotate(0.25turn); }
+}
+@keyframes spin2 {
+  /* 0.25turn = 75%
+   * 0.4turn = 90% */
+	to { transform: rotate(0.4turn); }
+}
+@keyframes spin3 {
+  /* 0.25turn = 75%
+   * 0.4turn = 90% */
+	to { transform: rotate(0.49turn); }
+}
+@keyframes spin4 {
+  /* 0.25turn = 75%
+   * 0.4turn = 90% */
+	to { transform: rotate(0.2turn); }
+}
+@keyframes spin5 {
+  /* 0.25turn = 75%
+   * 0.4turn = 90% */
+	to { transform: rotate(0.15turn); }
+}
+@keyframes spin6 {
+  /* 0.25turn = 75%
+   * 0.4turn = 90% */
+	to { transform: rotate(0.35turn); }
+}
+@keyframes bg {
+	50% { background: currentColor; }
+}
