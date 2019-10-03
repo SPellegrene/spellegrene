@@ -4,7 +4,7 @@ import Home from './Home/Home';
 import Who from './Who/Who';
 import What from './What/What';
 import Header from './Header/Header';
-import Pie from './Pie/Pie';
+import Work from './Work/Work';
 
 
 class App extends Component {
@@ -49,6 +49,7 @@ class App extends Component {
          />
         <Who />
         <What />
+        <Work />
       </div>
     );
   }

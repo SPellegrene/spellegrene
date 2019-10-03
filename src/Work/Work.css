@@ -1,0 +1,47 @@
+.leftProject {
+  display: inline-block;
+  width: 75%;
+}
+.CWSImg,
+.OSMDImg,
+.westlaw {
+  background: url("../Images/westlaw.png") no-repeat;
+  background-size: 1000px;
+  display: block;
+  height: 1000px;
+  width: 100%;
+}
+.rightProject {
+  display: inline-block;
+  float: right;
+  width: 24%;
+  text-align: center;
+}
+.projectCont {
+  background-color: #1AA1ED;
+  color: #fff;
+  display: flex;
+  height: 350px;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+.projectCont.cws,
+.projectCont.osmd {
+  background-color: #135479;
+  clear: both;
+}
+.projectCont.cws {
+  background-color: #289045;
+}
+.OSMDImg {
+  background: url("../Images/OSMDSite.png") no-repeat;
+  background-size: 1000px;
+  height: 1500px;
+}
+.CWSImg {
+  background: url("../Images/CWSSite.png") no-repeat;
+  background-size: 1000px;
+}
+a {
+  margin-top:12px;
+}
