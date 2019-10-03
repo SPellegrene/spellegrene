@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route } from "react-router-dom";
 import './App.css';
 import Home from './Home/Home';
 import Who from './Who/Who';
@@ -37,6 +38,10 @@ class App extends Component {
 //tell the comp to add a class at the same time since we need the class to change on scroll.
    const wrapper = document.getElementById('wrapper');
    wrapper.classList.toggle('is-nav-scroll');
+ }
+
+ whoJump() {
+   window.location.hash = "Who";
  }
 
   render() {

@@ -13,6 +13,9 @@ nav {
   background: #B4DDF0;
   padding: 20px 0;
 }
+nav a {
+  color: #000;
+}
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;

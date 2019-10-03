@@ -2,6 +2,10 @@
   display: inline-block;
   width: 75%;
 }
+.pageContainer.workCont {
+  background: none;
+  max-width:100%;
+}
 .CWSImg,
 .OSMDImg,
 .westlaw {

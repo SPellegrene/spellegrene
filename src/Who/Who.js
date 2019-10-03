@@ -4,7 +4,7 @@ import './Who.css';
 
 const who = () => {
   return (
-    <div className="pageContainer">
+    <div id="who"className="pageContainer">
       <h1 className="center white">WHO.</h1>
       <h2 className="center boxWidth">Web Developer, CSS Junkie, Music Enthusiast and Mountain Biker.</h2>
       <p className=" desc center boxWidth white">I like to live life to the fullest. It’s that simple.</p>

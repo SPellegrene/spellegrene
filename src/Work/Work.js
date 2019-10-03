@@ -4,7 +4,7 @@ import './Work.css';
 
 const work = () => {
   return (
-    <div className="workCont">
+    <div id="work" className="pageContainer workCont">
       <h1 className="center blueLt">WORK.</h1>
       <h2 className="center boxWidth">Scroll to see how I spend my days.</h2>
       <div className="projectCont">

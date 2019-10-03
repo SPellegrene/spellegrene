@@ -1,13 +1,15 @@
 import React from 'react';
+// import { NavLink } from 'react-router-dom';
 import './Header.css';
 
-const header = () => {
+
+const header = (props) => {
   return (
       <nav id='wrapper'>
-        <li>INTRO</li>
-        <li>WHO</li>
-        <li>WHAT</li>
-        <li>WORK</li>
+        <a href="/#intro"><li>INTRO</li></a>
+        <a href="/#who"><li>WHO</li></a>
+        <a href="/#what"><li>WHAT</li></a>
+        <a href="/#work"><li>WORK</li></a>
       </nav>
   )
 }

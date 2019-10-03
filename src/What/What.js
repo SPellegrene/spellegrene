@@ -6,7 +6,7 @@ import Pie from '../Pie/Pie';
 
 const what = () => {
   return (
-    <div className="pageContainer clear">
+    <div id="what" className="pageContainer clear fadeIn">
       <h1 className="center white">WHAT.</h1>
       <h2 className="center boxWidth">I’m no expert, but I’m always challenging myself in new skills.</h2>
       <p className=" desc center boxWidth white">For example, I designed and built this site in React.js.

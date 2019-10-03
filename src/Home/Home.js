@@ -6,7 +6,7 @@ const home = (props) => {
 
 
   return (
-    <div>
+    <div id="intro">
       <div className="bg">
         <h1 className="heroHello fadeIn">HELLO.</h1>
         <h3 className="heroSlogan fadeIn">Welcome to my web dev world.</h3>
