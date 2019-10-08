@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from "react-router-dom";
+// import { BrowserRouter, Route } from "react-router-dom";
 import './App.css';
 import Home from './Home/Home';
 import Who from './Who/Who';
 import What from './What/What';
 import Header from './Header/Header';
 import Work from './Work/Work';
+import Contact from './Contact/Contact';
+
 
 
 class App extends Component {
   constructor(props) {
    super(props);
-
    this.state = {
      isTop: true
    };
@@ -24,9 +25,7 @@ class App extends Component {
      const isTop = window.scrollY < 100;
      if (isTop !== this.state.isTop) {
        this.onScroll(isTop);
-       console.log('Scrolling!');
      }
-
    });
  }
 
@@ -40,21 +39,27 @@ class App extends Component {
    wrapper.classList.toggle('is-nav-scroll');
  }
 
- whoJump() {
-   window.location.hash = "Who";
+ //Click to copyToClipboard
+ copyToClipboard(e) {
+   document.getElementById('copyemail').select();
+   document.execCommand('copy');
+   document.getElementById('copysuccess').style='display: block';
+   setTimeout(function(){document.getElementById('copysuccess').style=''}, 5000);
  }
 
   render() {
     return (
       <div>
         <Header
-        onScroll={() => this.onScroll()}
+          onScroll={() => this.onScroll()}
         />
-        <Home
-         />
+        <Home />
         <Who />
         <What />
         <Work />
+        <Contact
+          onClick={(e) => this.copyToClipboard(e)}
+        />
       </div>
     );
   }
