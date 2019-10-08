@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-world/static/css/main.2412e165.chunk.css",
-    "main.js": "/my-world/static/js/main.7ba888da.chunk.js",
-    "main.js.map": "/my-world/static/js/main.7ba888da.chunk.js.map",
+    "main.css": "/my-world/static/css/main.c880fb2b.chunk.css",
+    "main.js": "/my-world/static/js/main.5c3fc2c5.chunk.js",
+    "main.js.map": "/my-world/static/js/main.5c3fc2c5.chunk.js.map",
     "runtime-main.js": "/my-world/static/js/runtime-main.39a7deca.js",
     "runtime-main.js.map": "/my-world/static/js/runtime-main.39a7deca.js.map",
     "static/js/2.6287c675.chunk.js": "/my-world/static/js/2.6287c675.chunk.js",
     "static/js/2.6287c675.chunk.js.map": "/my-world/static/js/2.6287c675.chunk.js.map",
     "index.html": "/my-world/index.html",
-    "precache-manifest.73d6fb695f6ed0bb39db59ef24932e67.js": "/my-world/precache-manifest.73d6fb695f6ed0bb39db59ef24932e67.js",
+    "precache-manifest.61774eb12f84b4d3a7435223a2d814c3.js": "/my-world/precache-manifest.61774eb12f84b4d3a7435223a2d814c3.js",
     "service-worker.js": "/my-world/service-worker.js",
-    "static/css/main.2412e165.chunk.css.map": "/my-world/static/css/main.2412e165.chunk.css.map",
+    "static/css/main.c880fb2b.chunk.css.map": "/my-world/static/css/main.c880fb2b.chunk.css.map",
     "static/media/Work.css": "/my-world/static/media/westlaw.a499c606.png",
     "static/media/Who.css": "/my-world/static/media/stickman.cb15a978.png"
   }
