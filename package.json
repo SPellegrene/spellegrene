@@ -2,7 +2,7 @@
   "name": "my-world",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SPellegrene.github.io/my-world",
+  "homepage": "http://www.sampellegrene.com/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "history": "^1.17.0",
