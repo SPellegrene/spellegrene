@@ -11,6 +11,9 @@ type PostType = {
     url: string
   }
   content: string
+  codeSnippet: string
+  label: string
+  bgColor: string
 }
 
 export default PostType

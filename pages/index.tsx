@@ -19,7 +19,7 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
+          <title>{`Sam Pellegrene Blog`}</title>
         </Head>
         <Container>
           <Intro />
@@ -30,8 +30,7 @@ export default function Index({ allPosts }: Props) {
               date={heroPost.date}
               author={heroPost.author}
               slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
+              excerpt={heroPost.excerpt} label={heroPost.label} bgColor={heroPost.bgColor}            />
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>

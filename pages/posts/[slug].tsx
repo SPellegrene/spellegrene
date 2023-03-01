@@ -38,12 +38,14 @@ export default function Post({ post, morePosts, preview }: Props) {
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
               <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                author={post.author}
-              />
-              <PostBody content={post.content} />
+                  title={post.title}
+                  coverImage={post.coverImage}
+                  date={post.date}
+                  author={post.author}
+                  label={post.label}
+                  bgColor={post.bgColor}
+                />
+              <PostBody content={post.content} title={post.title} codeSnippet={post.codeSnippet} />
             </article>
           </>
         )}
@@ -67,6 +69,9 @@ export async function getStaticProps({ params }: Params) {
     'content',
     'ogImage',
     'coverImage',
+    'codeSnippet',
+    'label',
+    'bgColor'
   ])
   const content = await markdownToHtml(post.content || '')
 
