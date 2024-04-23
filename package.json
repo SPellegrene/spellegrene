@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://www.sampellegrene.com/",
   "dependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^5.0.0",
     "history": "^1.17.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
